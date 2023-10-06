@@ -1,0 +1,10 @@
+.materiaisContainer {
+  padding: 2em;
+  flex-direction: column;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}

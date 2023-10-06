@@ -1,0 +1,23 @@
+.radioControl {
+  display: flex;
+  border: 1px solid #7b7b7b;
+  padding: 5px;
+  border-radius: 5px;
+  flex-direction: row;
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.radioControl label {
+  justify-content: flex-end;
+  margin: 0 1em 0 1em;
+  color: #ffbb33;
+  font-weight: bold;
+}
+
+.radioControl h3 {
+  font-size: 18px;
+  color: #fff;
+}

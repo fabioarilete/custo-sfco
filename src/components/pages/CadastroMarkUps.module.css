@@ -1,0 +1,13 @@
+.markUpsContainer {
+  width: 550px;
+  margin: 0 auto;
+  padding: 3em;
+}
+
+.markUpsContainer h1 {
+  margin-bottom: 0.5em;
+}
+
+.markUpsContainer hp {
+  color: #7b7b7b;
+}

@@ -1,0 +1,57 @@
+.custoCard {
+  padding: 1em;
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  width: 24%;
+  margin: 0.5%;
+}
+
+.custoCard h4 {
+  background-color: black;
+  color: #ffbb33;
+  padding: 0.4em;
+  margin-bottom: 1.3em;
+  font-size: 1.3em;
+}
+
+.custoCard p {
+  color: #7a7a7a;
+  margin-bottom: 1em;
+}
+
+.custoCard p span {
+  font-weight: bold;
+}
+
+.custoCardActions {
+  margin-top: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+.custoCardActions a,
+.custoCardActions button {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size: 0.9em;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  margin-right: 1em;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.custoCardActions svg {
+  margin-right: 0.5em;
+}
+
+.custoCardActions a:hover,
+.custoCardActions button:hover {
+  background-color: black;
+  color: #ffbb33;
+}

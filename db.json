@@ -1,0 +1,215 @@
+{
+  "produtos": [
+    {
+      "productId": "160",
+      "name": "VASSOURA BELLINHA",
+      "unit": {
+        "id": "1",
+        "name": "CX"
+      },
+      "qt": "12",
+      "custoMaster": 653,
+      "custoUnitario": 0,
+      "materiais": [
+        {
+          "uuid": "f8871011-a847-45c5-b3cc-62f2cb63844d",
+          "id": 4,
+          "obs": "teste",
+          "qt": 12,
+          "name": "chumbo",
+          "price": "10",
+          "unit": {
+            "id": "4",
+            "name": "KG"
+          },
+          "formattedPrice": "R$ 10,00"
+        }
+      ],
+      "subTotalMateriais": 653,
+      "operacoes": [],
+      "injectOperacao": [],
+      "id": 1
+    }
+  ],
+  "listaMateriais": [
+    {
+      "name": "PP PRETO - GRANULADO",
+      "price": "5.50",
+      "unit": {
+        "id": "4",
+        "name": "KG"
+      },
+      "tipoEmpresa": "1",
+      "frete": "5",
+      "nf": "100",
+      "icms": "18",
+      "ipi": "5",
+      "id": 1
+    },
+    {
+      "name": "PP VERMELHO - GRANULADO",
+      "price": "7.50",
+      "unit": {
+        "id": "4",
+        "name": "KG"
+      },
+      "tipoEmpresa": "1",
+      "frete": "5",
+      "nf": "100",
+      "icms": "18",
+      "ipi": "5",
+      "id": 2
+    },
+    {
+      "name": "teste",
+      "price": "50",
+      "unit": {
+        "id": "5",
+        "name": "LT"
+      },
+      "tipoEmpresa": "1",
+      "id": 3
+    },
+    {
+      "name": "chumbo",
+      "price": "10",
+      "unit": {
+        "id": "4",
+        "name": "KG"
+      },
+      "id": 4
+    }
+  ],
+  "listaOperacoes": [
+    {
+      "name": "MONTAGEM",
+      "valor": "50",
+      "id": 1
+    },
+    {
+      "name": "EMBALAGEM",
+      "valor": "50",
+      "id": 2
+    },
+    {
+      "name": "COLAGEM DE ESPUMA",
+      "valor": "50",
+      "id": 3
+    },
+    {
+      "name": "CORTE DE ESPUMA",
+      "valor": "50",
+      "id": 4
+    },
+    {
+      "name": "CORTE DE ESPUMA - LAMINADORA",
+      "valor": "50",
+      "id": 5
+    },
+    {
+      "name": "FREZAR ESPUMA",
+      "valor": "50",
+      "id": 6
+    },
+    {
+      "name": "INJETORA",
+      "valor": "110",
+      "id": 7
+    }
+  ],
+  "unidades": [
+    {
+      "name": "HR",
+      "fator": "60",
+      "id": 1
+    },
+    {
+      "name": "UN",
+      "fator": "1",
+      "id": 2
+    },
+    {
+      "name": "DZ",
+      "fator": "12",
+      "id": 3
+    },
+    {
+      "name": "KG",
+      "fator": "1",
+      "id": 4
+    },
+    {
+      "name": "LT",
+      "fator": "1",
+      "id": 5
+    },
+    {
+      "name": "ML",
+      "fator": "1000",
+      "id": 6
+    }
+  ],
+  "markUps": [
+    {
+      "name": "SEM ST",
+      "impostos": "13",
+      "comissao": "8.7",
+      "adm": "6",
+      "frete": "8",
+      "financeiro": "4",
+      "promotores": "2",
+      "marketing": "2",
+      "bonificacoes": "2",
+      "lucro": "15",
+      "id": 1
+    },
+    {
+      "name": "COM ST",
+      "impostos": "6",
+      "comissao": "8.7",
+      "adm": "6",
+      "frete": "8",
+      "financeiro": "4",
+      "promotores": "2",
+      "marketing": "2",
+      "bonificacoes": "2",
+      "lucro": "15",
+      "id": 2
+    },
+    {
+      "name": "teste",
+      "impostos": "5",
+      "comissao": "5",
+      "adm": "5",
+      "frete": "5",
+      "financeiro": "5",
+      "promotores": "5",
+      "marketing": "5",
+      "bonificacoes": "5",
+      "lucro": "5",
+      "id": 3
+    }
+  ],
+  "embalagens": [
+    {
+      "name": "CX",
+      "id": 1
+    },
+    {
+      "name": "PCT",
+      "id": 2
+    },
+    {
+      "name": "FD",
+      "id": 3
+    },
+    {
+      "name": "UN",
+      "id": 4
+    },
+    {
+      "name": "FX",
+      "id": 5
+    }
+  ]
+}

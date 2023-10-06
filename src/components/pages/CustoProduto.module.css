@@ -1,0 +1,63 @@
+.custoDetails {
+  padding: 2em;
+}
+
+.custoDetails h1,
+.custoDetails h2,
+.custoDetails p {
+  margin-bottom: 0.5em;
+}
+
+.custoDetails h1 {
+  background-color: black;
+  color: #ffbb33;
+  padding: 0.4em;
+}
+
+.custoDetails span {
+  font-weight: bold;
+}
+
+.detailsContainer,
+.serviceFormContainer {
+  border-bottom: 1px solid #7a7a7a;
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn {
+  color: #fff;
+  background-color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  max-height: 40px;
+  border: none;
+}
+
+.btn:hover {
+  color: #ffbb33;
+}
+
+.custoInfo {
+  width: 100%;
+}
+
+.materialCardTotal p {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #ffbb33;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  font-size: 1.1em;
+}
+
+.materialCardTotal span {
+  font-size: 1.3em;
+}

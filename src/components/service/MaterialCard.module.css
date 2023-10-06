@@ -1,0 +1,108 @@
+.materialCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #7a7a7a;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.materialCardTitle h4 {
+  background-color: black;
+  color: #ffbb33;
+  padding: 0.4em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+
+.materialCardItems {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.materialCardObs {
+  width: 30%;
+  text-align: left;
+}
+
+.materialCardObs span {
+  font-weight: bold;
+}
+
+.materialCardObs p {
+  font-size: 18px;
+}
+
+.materialCardQt {
+  width: 20%;
+  text-align: left;
+}
+
+.materialCardQt span {
+  font-weight: bold;
+}
+
+.materialCardQt p {
+  font-size: 18px;
+}
+
+.materialCardUnitPrice {
+  width: 20%;
+  text-align: left;
+}
+
+.materialCardUnitPrice span {
+  font-weight: bold;
+}
+
+.materialCardUnitPrice p {
+  font-size: 18px;
+}
+
+.materialCardTotalPrice {
+  width: 20%;
+  text-align: left;
+}
+
+.materialCardTotalPrice span {
+  font-weight: bold;
+}
+
+.materialCardTotalPrice p {
+  font-size: 18px;
+}
+
+.materialCardActions {
+  width: 10%;
+}
+
+.materialCardActions a,
+.materialCardActions button {
+  height: 30px;
+  width: 90px;
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  color: black;
+  font-size: 0.8em;
+  padding: 0.6em 1em;
+  cursor: pointer;
+  margin-right: 0.1em;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.materialCardActions svg {
+  margin-right: 0.5em;
+}
+
+.materialCardActions a:hover,
+.materialCardActions button:hover {
+  background-color: black;
+  color: #ffbb33;
+}
